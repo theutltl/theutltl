@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Files/background.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-color: cornflowerblue; */
+    /* color:aliceblue */
+}
+#header{
+    font-family: "Comic Sans", "Ink Free", Times, serif;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 28px 12%;
+    transition: all .50s ease;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px 0;
+    margin: 0px 30px;
+    transition: all .50s ease;
+}
+#p {
+    text-align: center;
+    font-family: "Comic Sans", "Ink Free", Times, serif;
+    color: black;
+    position: relative;
+    top: 75;
+    height: 35%;
+    font-size: 50;
+    background-color: transparent;
+}
+#q {
+    font-family:  "Tahoma", Times, serif;
+    color: black;
+    height: 50vh;
+    font-size: 50;
+    background-color: transparent;
+}
